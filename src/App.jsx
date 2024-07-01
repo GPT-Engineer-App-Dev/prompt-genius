@@ -4,6 +4,8 @@ import Index from "./pages/Index.jsx";
 import ManagePrompts from "./pages/ManagePrompts.jsx";
 import Settings from "./pages/Settings.jsx";
 
+import { TooltipProvider } from "@/components/ui/tooltip";
+import { Toaster } from "sonner";
 import SidebarLayout from "./components/layouts/sidebar.jsx";
 
 const queryClient = new QueryClient();
